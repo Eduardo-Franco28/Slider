@@ -44,7 +44,6 @@ header{
   height: auto;
   float: left;
   /* background: PURPLE; */
-  margin-left: 5%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -107,6 +106,7 @@ header{
   height: auto;
   float: left;
 }
+
 .destaque{
   width: 100%;
   height: 50vh;
@@ -116,6 +116,24 @@ header{
 .destaque iframe{
   width: 100%;
   height: 50vh;
+}
+.social-icons{
+  width: 100%;
+
+}
+.icon img{
+  width: 80px;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+}
+#instagram{
+  width: 70px;
+  height: auto;
+  margin-top: 1%;
+}
+#x{
+  margin-top: 5%;
 }
 footer{
   width: 100%;

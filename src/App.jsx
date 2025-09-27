@@ -7,6 +7,9 @@ import i1 from './assets/1.png'
 import i2 from './assets/2.png'
 import i3 from './assets/3.png'
 import i4 from './assets/4.png'
+import instagram from './assets/Instagram.png'
+import x from './assets/x.png'
+import zap from './assets/whatsApp.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import 'swiper/css'
@@ -93,16 +96,13 @@ function App() {
 
           <div className="social-icons">
             <div className="icon">
-              <img src="" alt="" id="instagram" />
+              <img src={instagram} alt="" id="instagram" />
             </div>
             <div className="icon">
-              <img src="" alt="" id="discord" />
+              <img src={zap} alt="" id="discord" />
             </div>
             <div className="icon">
-              <img src="" alt="" id="x" />
-            </div>
-            <div className="icon">
-              <img src="" alt="" id="youtube" />
+              <img src={x} alt="" id="x" />
             </div>
           </div>
 
